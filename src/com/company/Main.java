@@ -3,8 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        UndeadSong undead = new UndeadSong();
-        String msg = undead.msg;
+        String msg = "";//ur message
         SendMsg mail = new SendMsg();
         mail.setServer("smtp.gmail.com");
         mail.setProperties();
