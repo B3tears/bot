@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        String msg = "";//ur message
+        String msg = "fsociety00.dat";//ur message
         SendMsg mail = new SendMsg();
         mail.setServer("smtp.gmail.com");
         mail.setProperties();
